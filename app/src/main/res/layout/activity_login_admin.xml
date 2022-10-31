@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".adminLogin.adminLogin">
+
+    <LinearLayout
+        android:layout_centerVertical="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/login_logo"
+                android:layout_width="200dp"
+                android:layout_centerHorizontal="true"
+                android:layout_height="wrap_content"
+                android:src="@drawable/logo_babinkum"/>
+            <TextView
+                android:layout_below="@id/login_logo"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/myred"
+                android:fontFamily="@font/poppins_bold"
+                android:textSize="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="OTMIL II-10 Yogyakarta"/>
+
+
+        </RelativeLayout>
+
+        <EditText
+            android:id="@+id/login_edtUsername"
+            android:layout_marginTop="70dp"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:padding="5dip"
+            android:hint="Username"
+            android:textAlignment="center"
+            android:background="@drawable/rounded_edittext" />
+        <EditText
+            android:id="@+id/login_edtPassword"
+            android:layout_marginTop="20dp"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:padding="5dip"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textAlignment="center"
+            android:background="@drawable/rounded_edittext" />
+
+
+        <Button
+            android:id="@+id/login_btn_masuk"
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/rounded_btn_red"
+            android:text="Masuk"
+            android:textAllCaps="false"
+            android:fontFamily="@font/poppins_bold"
+            android:textSize="25dp"
+            android:textColor="@color/white"/>
+
+
+    </LinearLayout>
+</RelativeLayout>

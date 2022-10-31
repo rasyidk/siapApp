@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "234077820979",
+    "project_id": "arsipotmil-761e9",
+    "storage_bucket": "arsipotmil-761e9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:234077820979:android:fc31a2cfbb412835232b46",
+        "android_client_info": {
+          "package_name": "com.example.siap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "234077820979-5tbv590he3nl2div87vvc1tv8hbut3ub.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZm-i-_TB3vvxLyYkFdsJq0PaxtLxUsjY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "234077820979-5tbv590he3nl2div87vvc1tv8hbut3ub.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
